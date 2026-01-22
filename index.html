@@ -240,7 +240,22 @@
       color: var(--muted);
       font-size: .9rem;
     }
-
+    .social-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 0 8px;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+  }
+    .contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 1rem;
+  }
     @media (max-width: 768px) {
       .nav-links {
         display: none;
@@ -262,16 +277,6 @@
       .nav-toggle {
         display: flex;
       }
-      .social-icon {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-  margin: 0 8px;
-  vertical-align: middle;
-  cursor: pointer;
-}
-
-
     }
   </style>
 </head>
